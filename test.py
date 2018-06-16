@@ -15,6 +15,7 @@ field_list = "field_list.csv"
 
 print("Program starting")
 
-exec_awk("field_list.awk", source_file, field_list)
+exec_awk("source/field_list.awk", source_file,
+         "output/field_list.csv")
 
 print("Program ended")

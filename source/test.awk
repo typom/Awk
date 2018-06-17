@@ -1,3 +1,2 @@
-BEGIN {FS=","}
-NR>1  {s+= $27}
-END {print s}
+BEGIN {FS="," }
+NR>1 && $19=="CUL" {print $0}

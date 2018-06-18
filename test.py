@@ -12,7 +12,6 @@ def exec_awk(awk_prg, source_file, target_file=None):
 
 awk_program = r'test.awk'
 source_file = r'C:\Users\Alexandre\workspace\cestas\output\output01.csv'
-field_list = "field_list.csv"
 
 print("Program starting")
 
